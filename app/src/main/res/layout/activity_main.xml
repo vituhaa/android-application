@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.064" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/choose_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,36 +28,42 @@
         app:layout_constraintTop_toBottomOf="@+id/choose_city">
 
         <CheckBox
+            android:id="@+id/city1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/city_1"
             app:buttonTint="@color/button" />
 
         <CheckBox
+            android:id="@+id/city2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/city_2"
             app:buttonTint="@color/button" />
 
         <CheckBox
+            android:id="@+id/city3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/city_3"
             app:buttonTint="@color/button" />
 
         <CheckBox
+            android:id="@+id/city4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/city_4"
             app:buttonTint="@color/button" />
 
         <CheckBox
+            android:id="@+id/city5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/city_5"
             app:buttonTint="@color/button" />
 
         <CheckBox
+            android:id="@+id/city6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/city_6"
@@ -76,7 +82,7 @@
         app:layout_constraintVertical_bias="0.479" />
 
     <RadioGroup
-        android:id="@+id/radioGroup2"
+        android:id="@+id/choose_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,24 +93,28 @@
         app:layout_constraintVertical_bias="0.206">
 
         <CheckBox
+            android:id="@+id/time1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/today"
             app:buttonTint="@color/button" />
 
         <CheckBox
+            android:id="@+id/time2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tomorrow"
             app:buttonTint="@color/button" />
 
         <CheckBox
+            android:id="@+id/time3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/three_days"
             app:buttonTint="@color/button" />
 
         <CheckBox
+            android:id="@+id/time4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ten_days"
@@ -120,7 +130,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+        app:layout_constraintTop_toBottomOf="@+id/choose_2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

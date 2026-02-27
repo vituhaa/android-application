@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">gismeteo</string>
+    <string name="city_choose">City:</string>
+    <string name="city_1">Nizhny Novgorod</string>
+    <string name="city_2">Uren</string>
+    <string name="city_3">Zavolgie</string>
+    <string name="city_4">Kronshtadt</string>
+    <string name="city_5">Yoshkar-Ola</string>
+    <string name="city_6">Yaroslavl</string>
+    <string name="time">Time interval:</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="three_days">3 days</string>
+    <string name="ten_days">10 days</string>
+    <string name="next">Find out</string>
 </resources>

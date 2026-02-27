@@ -21,5 +21,9 @@
             </intent-filter>
         </activity>
     </application>
+    <queries>
+        <package android:name="com.yandex.browser"/>
+        <package android:name="com.android.chrome"/>
+    </queries>
 
 </manifest>
